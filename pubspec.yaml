@@ -1,0 +1,44 @@
+name: how_to_draw
+description: Learn how to draw
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  line_icons: ^0.2.0
+  url_launcher: ^5.1.2
+  launch_review: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+    - assets/content/characters/
+    - assets/content/tutorials/
+    - assets/content/steps/
+
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+    - family: MontserratAlternates
+      fonts:
+        - asset: assets/fonts/MontserratAlternates-Regular.ttf
+        - asset: assets/fonts/MontserratAlternates-SemiBold.ttf
+          weight: 600
