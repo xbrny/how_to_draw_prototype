@@ -60,7 +60,7 @@ class InfoScreen extends StatelessWidget {
                     SizedBox(width: 8),
                     Flexible(
                       child: Text(
-                        'dorki.rara',
+                        'Anime',
                         style: textTheme.subhead.copyWith(
                           fontWeight: FontWeight.w300,
                         ),

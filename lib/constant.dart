@@ -7,5 +7,5 @@ const kStepsDirName = 'steps';
 
 const kDeveloperEmail = 'thabranirahman@gmail.com';
 const kEmailSubject = 'How to Draw App Feedback';
-const kInstagramUrl = 'https://www.instagram.com/dorki.rara';
+const kInstagramUrl = 'https://www.instagram.com/anime';
 const kFacebookUrl = 'https://www.facebook.com/profile.php?id=100015605826806';
